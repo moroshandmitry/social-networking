@@ -1,10 +1,12 @@
 import React from 'react';
 
+import './Profile.scss'
+
 export const Profile = () => {
   return (
-        <div className={'content'}>
+        <div className={'profile'}>
             <div>
-                <img src={'https://wardleonard.com/wp-content/uploads/2016/04/back_globalsolutions-1200x300.jpg'} alt={'Main content'} />
+                <img className={'banner'} src={'https://wardleonard.com/wp-content/uploads/2016/04/back_globalsolutions-1200x300.jpg'} alt={'Banner'} />
             </div>
             <div>
                 Ava + descriptions
