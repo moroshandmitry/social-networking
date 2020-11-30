@@ -1,25 +1,25 @@
 import React from 'react';
 
-import './Navbar.scss'
+import s from './Navbar.module.scss'
 
 export const Navbar = () => {
   return (
-        <nav className={'nav'}>
-            <div className={'nav-items'}>
-                <div className={'nav-item'}>
-                    <a className={'nav-item-link'} href={'#'}>Profile</a>
+        <nav className={s.nav}>
+            <div className={s.items}>
+                <div className={s.item}>
+                    <a className={s.item_link} href={'#'}>Profile</a>
                 </div>
-                <div className={'nav-item'}>
-                    <a className={'nav-item-link'} href={'#'}>Messages</a>
+                <div className={s.item}>
+                    <a className={s.item_link} href={'#'}>Messages</a>
                 </div>
-                <div className={'nav-item'}>
-                    <a className={'nav-item-link'} href={'#'}>News</a>
+                <div className={s.item}>
+                    <a className={s.item_link} href={'#'}>News</a>
                 </div>
-                <div className={'nav-item'}>
-                    <a className={'nav-item-link'} href={'#'}>Music</a>
+                <div className={s.item}>
+                    <a className={s.item_link} href={'#'}>Music</a>
                 </div>
-                <div className={'nav-item'}>
-                    <a className={'nav-item-link'} href={'#'}>Settings</a>
+                <div className={s.item}>
+                    <a className={s.item_link} href={'#'}>Settings</a>
                 </div>
             </div>
         </nav>

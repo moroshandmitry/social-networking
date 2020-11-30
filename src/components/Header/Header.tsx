@@ -1,12 +1,12 @@
 import React from 'react';
 
-import './Header.scss'
+import s from './Header.module.scss'
 
 export const Header = () => {
   return (
-        <header className={'header'}>
+        <header className={s.header}>
             <a href={'#'}>
-                <img className={'logo'} src={'https://cdn.worldvectorlogo.com/logos/google-messages.svg'} alt={'Logo'} />
+                <img className={s.logo} src={'https://cdn.worldvectorlogo.com/logos/google-messages.svg'} alt={'Logo'} />
             </a>
         </header>
   );
