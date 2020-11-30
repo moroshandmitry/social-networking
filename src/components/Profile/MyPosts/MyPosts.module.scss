@@ -1,0 +1,26 @@
+.my_posts {
+  padding: 10px;
+  font-size: 1.2em;
+
+  .add_post {
+    font-size: 1.1em;
+    padding: 15px;
+    width: 40%;
+    border-radius: 15px;
+    outline: none;
+  }
+
+  .btn_add_post {
+    padding: 0 16px;
+    margin: 11px 4px;
+    min-height: 36px;
+    background: #f8f9fa;
+    outline: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #3c4043;
+    text-transform: uppercase;
+    border-radius: 4px;
+  }
+
+}
