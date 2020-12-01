@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import s from './Post.module.scss'
 
 
-export const Post = () => {
+export const Post = ({message}:{[key:string]:any}) => {
     const [likeCounts, setLikeCounts] = useState(0);
 
     const handleIncreaseCount = (value: number) => setLikeCounts(prevState => prevState + value)
@@ -27,7 +27,7 @@ export const Post = () => {
 
 
                 <div className={s.Message}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                    {message}
                 </div>
 
                 <div className={s.Likes}>
